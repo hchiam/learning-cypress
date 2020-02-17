@@ -23,7 +23,9 @@ node_modules/.bin/cypress open
 - `cypress/integration/*.spec.js` = test(s)
 - `cypress.json` = settings
 
-## Sub-folder for more learning:
+## [Sub-folder for more learning](https://github.com/hchiam/learning-cypress/tree/master/tutorial):
+
+[tutorial](https://github.com/hchiam/learning-cypress/tree/master/tutorial) folder:
 
 ```bash
 cd tutorial
