@@ -1,5 +1,8 @@
 # Learning Cypress
+
 Just one of the things I'm learning. https://github.com/hchiam/learning
+
+Cypress = E2E testing in the browser = simulate user actions.
 
 Update: Cypress 4.0 also supports Firefox and Edge.
 
