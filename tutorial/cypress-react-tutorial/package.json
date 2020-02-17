@@ -2,6 +2,7 @@
   "name": "cypress-react-tutorial",
   "version": "0.1.0",
   "private": true,
+  "license": "MIT",
   "dependencies": {
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
@@ -13,7 +14,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "cypress run; CI=true react-scripts test",
+    "test": "npm run start & cypress run; CI=true react-scripts test; (killall node || true); (killall node || true);",
     "eject": "react-scripts eject",
     "cypress": "cypress open"
   },
