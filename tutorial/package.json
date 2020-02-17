@@ -4,7 +4,8 @@
   "description": "following cypress tutorial for more learning",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress": "cypress open"
   },
   "author": "hchiam",
   "license": "MIT"

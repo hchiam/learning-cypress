@@ -18,6 +18,11 @@ node_modules/.bin/cypress open
 
 (click on a .js test file to run it - it will auto-run whenever you re-save the file)
 
+## Key files:
+
+- `cypress/integration/*.spec.js` = test(s)
+- `cypress.json` = settings
+
 ## Sub-folder for more learning:
 
 ```bash
