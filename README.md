@@ -25,7 +25,7 @@ node_modules/.bin/cypress open
 
 ## [Sub-folder for more learning](https://github.com/hchiam/learning-cypress/tree/master/tutorial):
 
-[tutorial](https://github.com/hchiam/learning-cypress/tree/master/tutorial) folder:
+[tutorial](https://github.com/hchiam/learning-cypress/tree/master/tutorial) folder includes things like an example API call, `data-cy` selector best-practices, and CLI command options notes:
 
 ```bash
 cd tutorial
