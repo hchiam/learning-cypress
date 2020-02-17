@@ -14,7 +14,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "npm run start & cypress run; CI=true react-scripts test; (killall node || true); (killall node || true);",
+    "test": "npm run start & cypress run; echo 'Now running react scripts test:'; CI=true react-scripts test; (killall node || true);",
     "eject": "react-scripts eject",
     "cypress": "cypress open"
   },
