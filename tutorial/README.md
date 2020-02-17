@@ -35,6 +35,10 @@ The `data-cy="..."` attribute provides a targeted selector that's only used for 
 
 But if you actually want the test to fail upon changed text, use `cy.contains(someTextItMustBe)`.
 
+Cypress CLI command options (e.g. `-s` for specific spec files, `-b` for browser): <https://docs.cypress.io/guides/guides/command-line.html#Options>
+
+For the pros and cons of (not) stubbing network requests: <https://docs.cypress.io/guides/guides/network-requests.html#Testing-Strategies> (e.g., realism vs. repeatability/reseeding problems).
+
 ## An official example repo
 
 <https://github.com/cypress-io/cypress-example-kitchensink>

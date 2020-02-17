@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Todo from './Todo';
+import App2 from './App2';
 import './App.css'
 
 let todoCounter = 1;
@@ -93,6 +94,9 @@ class App extends Component {
               )
             }
           </div>
+        </div>
+        <div id="app2">
+          <App2></App2>
         </div>
       </div>
     );
