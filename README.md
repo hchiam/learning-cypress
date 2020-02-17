@@ -1,6 +1,8 @@
 # Learning Cypress
 Just one of the things I'm learning. https://github.com/hchiam/learning
 
+Update: Cypress 4.0 also supports Firefox and Edge.
+
 ## Do once for this project:
 
 ```bash
