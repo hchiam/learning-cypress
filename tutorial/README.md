@@ -39,6 +39,12 @@ Cypress CLI command options (e.g. `-s` for specific spec files, `-b` for browser
 
 For the pros and cons of (not) stubbing network requests: <https://docs.cypress.io/guides/guides/network-requests.html#Testing-Strategies> (e.g., realism vs. repeatability/reseeding problems).
 
+## Plugin for snapshot and image matching
+
+<https://github.com/meinaart/cypress-plugin-snapshots>
+
+(May come in handy for `canvas` elements.)
+
 ## An official example repo
 
 <https://github.com/cypress-io/cypress-example-kitchensink>
