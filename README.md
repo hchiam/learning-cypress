@@ -35,3 +35,11 @@ cd tutorial
 ```
 
 <https://css-tricks.com/using-cypress-to-write-tests-for-a-react-application/>
+
+## Sub-folder to try out [combining Cucumber.js and Cypress](https://github.com/hchiam/learning-cypress/tree/master/cucumber):
+
+```bash
+cd cucumber
+```
+
+<https://learndevtestops.com/2019/09/29/cucumber-integration-with-cypress-io-in-5-minutes/>
