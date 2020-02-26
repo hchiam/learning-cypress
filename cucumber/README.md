@@ -1,15 +1,5 @@
 # Tutorial to try out combining Cucumber.js and Cypress
 
-## References
-
-<https://learndevtestops.com/2019/09/29/cucumber-integration-with-cypress-io-in-5-minutes/>
-
-<https://github.com/grajk88/cypress-cucumber-tests>
-
-Or my earlier notes:
-
-<https://github.com/hchiam/learning-cucumber#combine-cypress-and-cucumber>
-
 ## What you can do to test this out
 
 ```bash
@@ -108,3 +98,13 @@ Then('I should be able to login successfully', () => {
 ```bash
 npx cypress open
 ```
+
+## References
+
+<https://learndevtestops.com/2019/09/29/cucumber-integration-with-cypress-io-in-5-minutes/>
+
+<https://github.com/grajk88/cypress-cucumber-tests>
+
+Or my earlier notes:
+
+<https://github.com/hchiam/learning-cucumber#combine-cypress-and-cucumber>
