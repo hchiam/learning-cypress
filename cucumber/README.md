@@ -9,6 +9,16 @@ npx cypress open
 # click on the .feature file
 ```
 
+The 2 key test files:
+
+```text
+cypress
+--integration
+----login
+------login.js (cypress)
+----login.feature (cucumber gherkin)
+```
+
 ## What I had to do to set it up
 
 ```bash
