@@ -14,10 +14,12 @@ The 2 key test files: (out of 4 files)
 ```text
 cypress
 --integration
-----login
+----login (folder must match .feature file name)
 ------login.js (cypress)
 ----login.feature (cucumber gherkin)
 ```
+
+Besides them, you of course need `cypress`, but also the [`cypress-cucumber-preprocessor`](https://www.npmjs.com/package/cypress-cucumber-preprocessor) plugin installed in `package.json` and used in `/cypress/plugins/index.js` to pre-process Gherkin .feature files for running tests in Cypress.
 
 ## What I had to do to set it up
 
