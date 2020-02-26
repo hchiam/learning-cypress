@@ -9,7 +9,7 @@ npx cypress open
 # click on the .feature file
 ```
 
-The 2 key test files:
+The 2 key test files: (out of 4 files)
 
 ```text
 cypress
@@ -30,6 +30,7 @@ rm -rf cypress/integration/examples
 touch package.json
 touch integration/login.feature
 touch integration/login/login.js
+# edit cypress/plugins/index.js
 npx cypress open
 # click on the .feature file
 ```
