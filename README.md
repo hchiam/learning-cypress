@@ -43,3 +43,7 @@ cd cucumber
 ```
 
 <https://learndevtestops.com/2019/09/29/cucumber-integration-with-cypress-io-in-5-minutes/>
+
+## Example of an Azure Devops repo running Cypress tests (+Cucumber/Gherkin)
+
+<https://dev.azure.com/hchiam/test-cypress>
