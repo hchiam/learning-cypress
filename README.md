@@ -40,6 +40,31 @@ cd tutorial
 
 For example, here's an official example for testing drag and drop: <https://github.com/cypress-io/cypress-example-recipes/blob/master/examples/testing-dom__drag-drop/cypress/integration/drag_n_drop_spec.js>
 
+```js
+
+function movePiece (number, x, y) {
+  cy.get(`.piece-${number}`)
+  .trigger('mousedown', { which: 1 })
+  .trigger('mousemove', { clientX: x, clientY: y })
+  .trigger('mouseup', { force: true })
+}
+
+function dropBallInHoop (index) {
+  cy.get('.balls img').first()
+  .trigger('dragstart')
+
+  cy.get('.hoop')
+  .trigger('drop')
+}
+
+...
+cy.get('.hoop')
+.trigger('dragenter')
+.should('have.class', 'over')
+.trigger('dragleave')
+.should('not.have.class', 'over')
+```
+
 ## Sub-folder to try out [combining Cucumber.js and Cypress](https://github.com/hchiam/learning-cypress/tree/master/cucumber):
 
 ```bash
