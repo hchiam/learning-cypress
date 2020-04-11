@@ -36,6 +36,10 @@ cd tutorial
 
 <https://css-tricks.com/using-cypress-to-write-tests-for-a-react-application/>
 
+## Official examples/recipes
+
+For example, here's an official example for testing drag and drop: <https://github.com/cypress-io/cypress-example-recipes/blob/master/examples/testing-dom__drag-drop/cypress/integration/drag_n_drop_spec.js>
+
 ## Sub-folder to try out [combining Cucumber.js and Cypress](https://github.com/hchiam/learning-cypress/tree/master/cucumber):
 
 ```bash
