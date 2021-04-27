@@ -6,7 +6,15 @@ Cypress = E2E testing in the browser = simulate user actions.
 
 Update: Cypress 4.0 also supports Firefox and Edge.
 
-## Do once for this project:
+## Starting from scratch:
+
+```bash
+cd /your/project/path
+npm install cypress --save-dev
+npx cypress open
+```
+
+## If you're starting from this repo, do the following once:
 
 ```bash
 cd learning-cypress
